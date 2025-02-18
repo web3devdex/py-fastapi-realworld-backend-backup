@@ -23,6 +23,9 @@ It is built with FastAPI, a modern, fast (high-performance), web framework for b
 - Pytest
 - Docker
 
+# Extention
+Install Python Microsoft Extention VSCode
+
 ## Installation
 
 Create a virtual environment:
