@@ -31,6 +31,8 @@ def create_app() -> FastAPI:
 
     configure_logger()
 
+    print("create_app_success")
+
     return application
 
 
