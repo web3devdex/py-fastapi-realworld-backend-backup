@@ -28,7 +28,10 @@ It is built with FastAPI, a modern, fast (high-performance), web framework for b
 Create a virtual environment:
 
 ```sh
-make ve
+python3 -m venv .ve; 
+. .ve/bin/activate; 
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 Install dependencies:

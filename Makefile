@@ -3,6 +3,15 @@ ve:
 	. .ve/bin/activate; \
 	pip install -r requirements.txt
 
+images:
+	docker images
+
+containers:
+	docker ps -a
+
+connect_postgres:
+	docker exec -it conduit-postgres sh
+
 docker_build:
 	docker-compose up -d --build
 
